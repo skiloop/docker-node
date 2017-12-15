@@ -1,9 +1,9 @@
 FROM alpine
 
 ENV NODE_VERSION 8.9.3
-COPY repositories /etc/apk/repositories
+#COPY repositories /etc/apk/repositories
 
-RUN apk update
+#RUN apk update
 
 RUN addgroup -g 1000 node \
     && adduser -u 1000 -G node -s /bin/sh -D node \
