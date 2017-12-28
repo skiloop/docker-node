@@ -1,7 +1,6 @@
 FROM alpine
 
 ENV NODE_VERSION 8.9.3
-#COPY repositories /etc/apk/repositories
 
 #RUN apk update
 
